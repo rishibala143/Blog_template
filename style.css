@@ -1,0 +1,35 @@
+.one{
+        display: inline;
+        padding-left: 100px;
+} 
+.bg{
+    background-image: url('background\ 1.avif');
+    background-size: cover;
+}
+.li{
+    display: flex;
+    justify-content: flex-start
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+body{
+    background-color: aliceblue;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 130%;
+}
+img{
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+}
+a:hover{
+    background-color:rgb(46, 223, 223);
+    color: white;
+}
+hr{
+    color: black;
+}

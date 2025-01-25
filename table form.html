@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table form</title>
+        <style>
+            .one{
+                background-color: orange;
+            }
+            .two{
+                background-color: blue;
+            }
+            .three{
+                background-color: green;
+            }
+        </style>
+    </head>
+    <body>
+    <center>
+        <table border="1">
+        <tr>
+            <th rowspan="2">day</th><th rowspan="2">timing</th><th colspan="3">venue</th>
+        </tr>
+        <tr>
+            <td class="one">conference hall</td><td class="two">aukbc hall</td><td class="three">rajam hall</td>
+        </tr>
+        <tr>
+            <th rowspan="2">mon</th><td>8-9am</td><td class="one">english</td><td class="two">ite</td><td class="three">math</td>
+        </tr>
+        <tr>
+            <td>10-11am</td><td class="one">physics</td><th colspan="2" class="two">ed</th>
+        </tr>
+        <tr>
+            <th rowspan="3">wed</th><td>8-9am</td><td class="one">ite</td><td class="two">chemistry</td><td class="three">physics</td>
+        </tr>
+        <tr>
+            <td>10-11am</td><th colspan="2" class="one">tamil</th><td class="three">math</td>
+        </tr>
+        <tr>
+            <td>2-3pm</td><td class="one">math</td><td class="two">english</td><td class="three">ite</td>
+        </tr>
+        <tr>
+            <td>fri</td><td>9-10am</td><th colspan="3" class="one">heritage and culture</th>
+        </tr>
+        </table>
+    </center>
+    </body>
+</html>

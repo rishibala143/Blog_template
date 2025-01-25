@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>Login</title>
+      <style>
+        .two{
+            margin-left: 450px;
+            margin-right: 450px;
+            margin-top: 40px;
+            margin-bottom: 50px;
+            border-style: solid;
+            border-color: black;
+            border-width: 1.5px;
+            border-radius: 10px;
+            background-color: whitesmoke;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.9);
+        }
+        input[type="text"],input[type="number"],input[type="email"],input[type="password"]
+        {
+           border-radius:2px;
+           border-width: 1px;
+           border-style: solid;
+           border-color: black;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="bg">
+       <center>
+         <h1>LET'S GO !</h1>
+         <h2>TOURS  AND TRAVELS</h2>
+         <h4>TOUR PLANS AND TRAVEL FACILITIES ARE ARRANGED BY US.</h4>
+       </center>
+       <marquee><b>EXPLORE THE BEAUTY OF THE WORLD WITH YOUR OWN EYES !</b></marquee>
+       <link rel="stylesheet" href="style.css">
+       <div class="li">
+       <ul>
+        <li class="one"><a href="home.html">HOME</a></li>
+        <li class="one"><a href="login.html">LOGIN</a></li>
+        <li class="one"><a href="place to visit.html">PLACE TO VISIT</a></li>
+        <li class="one"><a href="transportation.html">TRANSPORTATION</a></li>
+        <li class="one"><a href="tour package.html">TOUR PACKAGES</a></li>
+        <li class="one"><a href="map.html">MAPS</a></li>
+        <li class="one"><a href="about us.html">ABOUT US</a></li>
+       </ul>
+       </div>
+       </div>
+       <hr>
+       <br>
+       <br>
+       <center>
+        <div class="two">
+        <br>
+        <h2 style="font-family:Arial, Helvetica, sans-serif;">Login</h2>
+        <table>
+            <form id="myform" >
+            <tr>
+                <td><label for="username">Username:</label></td><td><input type="text" id="username" name="username" placeholder="Enter Your Name"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td><td><input type="password" id="password" name="password" placeholder="Enter Your Password"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender:</label></td><td><input type="radio" id="gender male" name="gender male">male <input type="radio" id="gender female" name="gender female">female</td>
+            </tr>
+            <tr>
+                <td><label for="travelwith">Travel :</label></td><td><input type="checkbox" name="op1">
+                <label for="op1">family</label></td>
+            </tr>
+            <tr>
+                <td></td><td><input type="checkbox" name="op2">
+                <label for="op2">friends</label></td>
+            </tr>
+            <tr>
+                <td><label for="email">E-mail:</label></td><td><input type="email" placeholder="Enter Your Email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="phone number">Phone number:</label></td><td><input type="number" placeholder="Enter Your Phone number" id="phone number" name="phone number"></td>
+            </tr>
+            <tr>
+                <td id="sbmt"><input type="submit" id="submit" onclick="validateform(myform.email)"> <br></td> <td id="rst"><input type="reset"></td>
+            </tr>
+        </form>
+        </table>
+        <br>
+        <br>
+        <br>
+        </div>
+       </center>
+       <script src="form validation.js"></script>
+    </body>
+    </html>
